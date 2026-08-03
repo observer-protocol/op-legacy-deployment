@@ -1,3 +1,23 @@
+> ## ⚠ EVERY CLAIM BELOW IS OUT OF DATE. Do not act on this document.
+>
+> This describes the estate **as it was in April 2026**. It is kept as a record of a past state and is
+> deliberately **not corrected** — correcting it would destroy what it is evidence of.
+>
+> What has changed since, at minimum:
+>
+> - **The API does not run where this says.** It runs on the VPS from `/opt/observer-protocol/api`
+>   as `observer-api.service`, not on the FutureBit node from `/media/nvme/observer-protocol`.
+> - **The canonical schemas are not here.** They are in
+>   [`observer-protocol/aip`](https://github.com/observer-protocol/aip), and the served copies are in
+>   the website repository.
+> - **This repository has been renamed** to `op-legacy-deployment` and is not the specification
+>   repository, despite what the "Canonical Purpose" section below asserts.
+> - The "how to verify you are in the right repo" section names a git remote that now redirects.
+>
+> Treat everything below as archaeology.
+
+---
+
 # REPO_MAP.md — observer-protocol
 
 ## Canonical Purpose

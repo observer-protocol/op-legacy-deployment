@@ -22,9 +22,17 @@ It is kept rather than archived so that its open issues stay writable and its hi
 Renaming preserves both, and GitHub redirects the old URL — but that redirect is silent, so this file
 exists to explain where you have landed.
 
-**It is not maintained.** Do not read the documents here as current. In particular `WHITEPAPER.md`,
-`REPO_MAP.md` and `CHANGELOG.md` describe an architecture and a repository layout that have since
-changed, and `REPO_MAP.md` was last updated in April 2026.
+**It is not maintained.** Do not read the documents here as current. Three are worth naming:
+
+- **[`CHANGELOG.md`](./CHANGELOG.md)** — stops March 2026. **Its version numbers relate to nothing
+  currently published.** Kept because it is the only record of *why the identity model looks the way
+  it does*: the move to `did:web`, the decision to make the agent the evidence carrier with the
+  database as cache and the Verifiable Presentation authoritative, and key rotation with historical
+  verification. That reasoning is still worth having.
+- **[`REPO_MAP.md`](./REPO_MAP.md)** — April 2026, and every claim in it is now wrong. Kept
+  uncorrected as a record of a past state, with a header saying so.
+- **`WHITEPAPER.md`** — superseded, and no longer served from observerprotocol.org. There were four
+  copies with four different hashes and no canonical version among them. Retained here; not published.
 
 ## If you were sent here for the spec
 

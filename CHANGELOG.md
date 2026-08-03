@@ -1,9 +1,23 @@
-# Changelog
+# Changelog — historical, ends March 2026
 
-All notable changes to Observer Protocol will be documented in this file.
+> **Read this first.** This changelog stops in March 2026 and is not maintained. **Its version numbers
+> — 1.1.0, 1.3.1 — relate to nothing currently published.** They are not the version of any npm
+> package, any schema, or any running service. Do not use them to identify anything.
+>
+> It is kept because it is the only record of **why the identity model looks the way it does**: the
+> move from `public_key_hash` to `did:web`, the decision to make the agent the evidence carrier with
+> the database as cache and the Verifiable Presentation as the authoritative record, and the reasoning
+> behind key rotation with historical verification. That reasoning is still load-bearing even though
+> the version numbers are meaningless.
+>
+> For what is current: the specification is in
+> [`observer-protocol/aip`](https://github.com/observer-protocol/aip), the schemas are served at
+> `https://observerprotocol.org/schemas/`, and the verification runtime is
+> [`@observer-protocol/policy-engine`](https://www.npmjs.com/package/@observer-protocol/policy-engine).
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+All notable changes to Observer Protocol were documented in this file until March 2026.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## [1.3.1] - 2026-03-30
 
