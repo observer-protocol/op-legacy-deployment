@@ -1,3 +1,9 @@
+> # ARCHIVED. Historical deployment tree, and it was already signposted as one.
+>
+> No package was ever published from this repository, so **nothing was unpublished**. It is retained
+> public and read-only as a record of what the deployment looked like before the current one, which
+> is the whole reason it was renamed rather than deleted. **Do not deploy from this.**
+
 # op-legacy-deployment
 
 **Renamed from `observer-protocol-spec` on 2026-08-03. This is not the specification repository.**
